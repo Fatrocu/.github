@@ -1,15 +1,16 @@
-# Fatrocu Organization
+# Fatrocu
 
-The Fatrocu organization maintains the open‑source Fatrocu suite for local invoice processing. The suite includes a desktop GUI, a CLI tool, and an HTTP server, all powered by the ImajeV‑2B‑Q8_0 model.
+Fatrocu 3.1 is a Rust-based local-first document extraction suite for accountants and financial advisers. Its first templates are e-Archive and OKC. The standard OKC document is a Z report; UTTS fuel slips are also in scope. Users review and approve extracted data before exporting to Excel, CSV, or JSON.
 
 ## Repositories
 
-- **Fatrocu** – Core repository containing the desktop application and shared resources.
-- **fatrocu-cli** – Command‑line interface for automation.
-- **fatrocu-server** – Lightweight HTTP server exposing a `/process` endpoint.
-- **.github** – Organization‑wide GitHub configuration and documentation.
+- Fatrocu: Windows desktop frontend.
+- fatrocu-cli: shared Rust processing core and CLI for Windows/Linux automation.
+- fatrocu-server: llama.cpp/model setup and local or hosted model serving for Windows/Linux.
+- .github: organization profile and GitHub configuration.
+- fatrocu-docs: planned final phase for OpenWiki-based product and agent-automation documentation.
 
-## Contributing
+The current plan is in the workspace notes.md. Repository READMEs describe the Fatrocu 3.1 target, not old releases.
 
-Contributions are welcome. Please follow the contribution guidelines in each repository.
+
 
